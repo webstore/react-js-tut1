@@ -3,9 +3,16 @@ import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="container-fluid">
+      <div className="row">
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          Col 1
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          Col 1
+        </div>
+        
+      </div>
     </div>
   );
 }
