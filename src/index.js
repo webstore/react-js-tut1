@@ -10,6 +10,11 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <Product />
+    <div className="row">
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+    </div>
   </StrictMode>
 );

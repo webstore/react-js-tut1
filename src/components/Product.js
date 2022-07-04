@@ -1,30 +1,32 @@
 import React from 'react';
 const Product = () => {
   return (
-    <article className="m-5 p-2">
+    <div className="col-lg-3 col-md-12 col-sm-12 m-2 border">
       <div className="row">
-        <div className="col-lg-1 col-md-1 col-sm-2">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="text-left mb-1">
             <img
-              className="border border-primary"
+              className="border border-primary m-1"
               src="https://raw.githubusercontent.com/webstore/react-js-tut1/main/src/assets/images/download.jpg"
-              width="150"
+              width="100"
             />
           </div>
         </div>
-        <div className="col-lg-3 col-md-3 col-sm-5">
-          <h6 className="text-left ml-1">Entertainment equipment</h6>
-          <div className="text-left ml-1 text-secondary">
+        <div className="col-lg-8 col-md-5 col-sm-6">
+          <h6 className="text-left">Entertainment equipment</h6>
+        </div>
+        <div className="col-lg-12 col-md-5 col-sm-6">
+          <div className="text-left text-secondary">
             In marketing, a product is an object, or system, or service made
             available for consumer use as of the consumer demand
           </div>
-        </div>
-
-        <div className="col-lg-1 col-md-1 col-sm-1">
-          <div className=" h6 text-primary  ml-1">$ 250</div>
+          <div className=" h6 text-primary">
+            <span>$ 550</span>
+            <button className="ml-4 btn btn-primary btn-xs">Add to Cart</button>
+          </div>
         </div>
       </div>
-    </article>
+    </div>
   );
 };
 
